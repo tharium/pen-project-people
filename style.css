@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(280deg, blue,yellow,red);
+  }
+  
+  .thumbnail {
+    padding: 10px 10px 30px 10px;
+    border: 4px solid black;
+  }
+  
+  .thumbnail:hover {
+      border: 4px solid orange;
+      border-radius: 10px;
+  }
+  
+  dialog img {
+    width: 100%;
+  }
